@@ -12,6 +12,7 @@ const config = {
       'jquery.cookie',
       './client/thirdparty-js/jquery.selection.js',
       'babel-polyfill',
+      './client/global-jquery.js',
     ],
     app:          path.join(__dirname, '/../client/app.js'),
     crowi:        path.join(__dirname, '/../client/crowi.js'),
